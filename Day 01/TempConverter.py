@@ -1,0 +1,8 @@
+print(" ##Temperature Converter## ")
+C = float(input("Enter Celsius: ",))
+K = ((C*1.8)+32)
+print("Celsius to Fahrenheit")
+print("fahrenheit is : ",K)
+L =(C+273.15)
+print("Celsius to Kelvin")
+print("Kelvin is: ",L)

@@ -1,0 +1,5 @@
+print(" #Personal Information Card# ")
+a = input("Enter your name : ")
+b = int(input("Enter age : "))
+c = input("Enter your city : ")
+d = float(input("Yearly Income : "))

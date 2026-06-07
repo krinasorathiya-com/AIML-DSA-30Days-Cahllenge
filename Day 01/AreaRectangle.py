@@ -1,0 +1,7 @@
+print("## Area Of Rectangle ##")
+l = float(input("Enter the length : "))
+w = float(input("Enter the width : "))
+A =(l*w)
+print("Area is valid or not : ",A>0)
+if(A<0): print("Area is not valid")
+else: print("Area Of Rectangle is : ",A)

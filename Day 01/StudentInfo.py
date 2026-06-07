@@ -1,0 +1,6 @@
+print(" Student Information ")
+a=input("Enter  your Name :")
+b=int(input("Enter your age: "))
+c=float(input("Marks obtained out of 500 : "))
+if(c>500):print("Marks is not valid.")
+else:print("TOTAL Percentage : ",(c*100)/500)
