@@ -1,6 +1,6 @@
 print(" EVEN number list : ")
-num1 =float(input("Enter the first  number : "))
-num2 = float(input("Enter the second number : "))
+num1 =int(input("Enter the first  number : "))
+num2 = int(input("Enter the second number : "))
 for i in range((num1), (num2) + 1):
     if(i<=0): print("Please enter a positive number")
         
