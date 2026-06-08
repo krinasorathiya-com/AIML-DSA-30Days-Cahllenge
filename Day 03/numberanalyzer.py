@@ -7,25 +7,25 @@ print("Number of digits =", count)
 
 sum = 0
 
-digit = n % 10
+digit = num% 10
 sum = sum + digit
-n = n // 10
+num = num // 10
 
 print("Sum of digits =", sum)
 
 reverse = 0
 
-a=n%10
+a=num%10
 reverse =(reverse*10)+a
-n=n//10
+num=num//10
 print(f"THE REVERSE NUMBER OF THIS NUMBER IS {reverse} .")
 
-original=n
+original=num
 reverse=0
 
-a=n%10
+a=num%10
 reverse=(reverse*10)+a
-n=n//10
+num=num//10
 if(original==reverse):
 
     print("The number is  pallindrome number.")
