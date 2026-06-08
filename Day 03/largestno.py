@@ -3,6 +3,7 @@ large = 0
 
 while num > 0:
     a = num % 10
+
 if (a > large):
         large = a
         num = num // 10
