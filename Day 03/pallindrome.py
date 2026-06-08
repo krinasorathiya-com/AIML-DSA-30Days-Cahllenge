@@ -6,7 +6,7 @@ while(n>0):
     reverse=(reverse*10)+a
     n=n//10
 print(f"The reverse number is: {reverse}")
-if(original!=reverse):
+if(original==reverse):
 
-    print("The number is not pallindrome number.")
-else:print("the number is  pallindrome number.")
+    print("The number is  pallindrome number.")
+else:print("the number is not  pallindrome number.")
