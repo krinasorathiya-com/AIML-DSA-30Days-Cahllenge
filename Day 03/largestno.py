@@ -1,7 +1,7 @@
 num = int(input("Enter the number: "))
 large = 0
 
-while num > 0:
+while (num > 0):
     a = num % 10
 
 if (a > large):
