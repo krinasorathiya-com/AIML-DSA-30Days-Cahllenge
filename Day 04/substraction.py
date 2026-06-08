@@ -4,6 +4,7 @@ def substraction(num1,num2):
         print(f"sub : {sub}")
         return num2-num1
     else:
+        print(f"{sub}")
         return num1-num2
 substraction(20,10)
 substraction(10,20)    
