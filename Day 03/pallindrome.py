@@ -6,4 +6,6 @@ while(n>0):
     n=n//10
 print(f"The reverse number is: {reverse}")
 if(n==reverse):
+
     print("The number is pallindrome number.")
+else:print("the number is not pallindrome number.")
