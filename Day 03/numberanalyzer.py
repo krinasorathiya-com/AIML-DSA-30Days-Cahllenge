@@ -1,40 +1,40 @@
-num=int(input("Enter a number: "))
-count=0
-sum=0
-largest=0
-reverse =0
+num = int(input("Enter a number: "))
 
-while (num>0):
-    num=num//10
-    count=count+1
+original = num
+
+count = 0
+temp = num
+while temp > 0:
+    temp = temp // 10
+    count += 1
 print("Number of digits =", count)
 
-digit = num% 10
-sum = sum + digit
-num = num // 10
+sum_digits = 0
+temp = num
+while temp > 0:
+    digit = temp % 10
+    sum_digits += digit
+    temp = temp // 10
+print("Sum of digits =", sum_digits)
 
-print("Sum of digits =", sum)
-
-while (num > 0):
-    digit = num % 10
-
-    if (digit > largest):
+largest = 0
+temp = num
+while temp > 0:
+    digit = temp % 10
+    if digit > largest:
         largest = digit
-
-    num = num // 10
-
+    temp = temp // 10
 print("Largest digit is:", largest)
 
-a=num%10
-reverse =(reverse*10)+a
-num=num//10
-print(f"THE REVERSE NUMBER OF THIS NUMBER IS {reverse} .")
+reverse = 0
+temp = num
+while temp > 0:
+    digit = temp % 10
+    reverse = reverse * 10 + digit
+    temp = temp // 10
+print("Reverse number =", reverse)
 
-original=num
-a=num%10
-reverse=(reverse*10)+a
-num=num//10
-if(original==reverse):
-
-    print("The number is  pallindrome number.")
-else:print("the number is not  pallindrome number.")
+if original == reverse:
+    print("The number is a palindrome.")
+else:
+    print("The number is not a palindrome.")
