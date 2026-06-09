@@ -1,11 +1,13 @@
-num = int(input("Enter the number: "))
-large =0
-while (num > 0):
-    a = num % 10
-    if(large<a):
-        print(f"Largest digit is: {a}.")
-    else:
-        print(f"Largest number is : {large}")    
-num = num // 10
+num = int(input("Enter a number: "))
 
+largest = 0
 
+while num > 0:
+    digit = num % 10
+
+    if digit > largest:
+        largest = digit
+
+    num = num // 10
+
+print("Largest digit is:", largest)
