@@ -1,11 +1,10 @@
 num = int(input("Enter a number: "))
-
 largest = 0
 
-while num > 0:
+while (num > 0):
     digit = num % 10
 
-    if digit > largest:
+    if (digit > largest):
         largest = digit
 
     num = num // 10
