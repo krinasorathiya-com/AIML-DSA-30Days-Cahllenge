@@ -1,5 +1,5 @@
 def division(num1,num2):
-    if(num2==0):print("Zero Division Error  ")
+    if(num2==0):print("Zero Division Error .\n Zero is not divisible by any number. ")
     else:
         a=num1/num2
         print(f"division is:{a}")
