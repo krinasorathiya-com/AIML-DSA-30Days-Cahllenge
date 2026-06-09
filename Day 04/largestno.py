@@ -1,7 +1,7 @@
 def largest_number(a, b, c):
-    if a >= b and a >= c:
+    if (a >= b) and (a >= c):
         return a
-    elif b >= c:
+    elif (b >= c):
         return b
     else:
         return c
