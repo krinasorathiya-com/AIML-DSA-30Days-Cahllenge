@@ -6,9 +6,9 @@ def small(a,b,c):
     else:
         print(f"{c} is smallest number in this all number.")
 
-small(23,567,(-99))
-small(-45,0,56785)
-small(9,45,88)
+small(-99,23,56)
+small(0,-45,56785)
+small(99,45,8)
 
 
 
