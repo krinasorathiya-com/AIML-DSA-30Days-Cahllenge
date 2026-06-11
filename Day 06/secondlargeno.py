@@ -4,10 +4,10 @@ largest = float('-inf')
 second = float('-inf')
 
 for num in nums:
-    if num > largest:
+    if (num > largest):
         second = largest
         largest = num
-    elif num > second and num != largest:
+    elif (num > second and num != largest):
         second = num
 
-print(second)
+print(f"THE SECOND LARGEST NUMBER IS : {second}.")
