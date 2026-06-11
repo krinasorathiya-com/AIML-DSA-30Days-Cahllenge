@@ -9,6 +9,6 @@ while (temp > 0):
     temp = temp // 10
 
 if (sum == num):
-    print(f"{num} is the Armstrong Number")
+    print(f"{num} is the Armstrong .")
 else:
     print(f"{num} is  Not Armstrong Number.\n Because cube of digit and their sum is not equal to the {num}.")
