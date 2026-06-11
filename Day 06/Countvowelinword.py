@@ -1,9 +1,9 @@
-def countvowel(a):
-    a = input("Enter a string: ")
+def countvowel(text):
+    text = input("Enter a string: ")
 
 count = 0
 
-for ch in a.lower():
+for ch in text.lower():
     if ch in "aeiou":
         count += 1
 
