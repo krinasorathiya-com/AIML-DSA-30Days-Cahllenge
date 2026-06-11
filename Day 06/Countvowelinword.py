@@ -1,5 +1,4 @@
-def countvowel(text):
-    text = input("Enter a string: ")
+text = input("Enter a string: ")
 
 count = 0
 
