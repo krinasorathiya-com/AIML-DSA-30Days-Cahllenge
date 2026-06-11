@@ -10,4 +10,4 @@ for num in nums:
     elif num > second and num != largest:
         second = num
 
-print(second)
+print(f"SECOND LARGEST NUMBER IS: {second}.")
