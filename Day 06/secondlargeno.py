@@ -1,7 +1,7 @@
 nums = list(map(int, input().split()))
 
-largest = 0
-second = 0
+largest = float('-inf')
+second = float('-inf')
 
 for num in nums:
     if num > largest:
@@ -10,4 +10,4 @@ for num in nums:
     elif num > second and num != largest:
         second = num
 
-print(f"SECOND LARGEST NUMBER IS: {second}.")
+print(second)
