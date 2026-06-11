@@ -9,6 +9,6 @@ while (temp > 0):
     temp = temp // 10
 
 if (sum == num):
-    print("Armstrong Number")
+    print(f"{num} is the Armstrong Number")
 else:
     print("Not Armstrong Number")
