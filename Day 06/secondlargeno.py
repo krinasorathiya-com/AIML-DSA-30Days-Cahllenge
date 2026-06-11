@@ -1,6 +1,7 @@
 nums = list(map(int, input().split()))
 
-largest = second = float('-inf')
+largest = 0
+second = 0
 
 for num in nums:
     if num > largest:
