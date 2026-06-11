@@ -8,7 +8,6 @@ for ch in text.lower():
         count += 1
 
 print(count)
-countvowel(Education)
-countvowel(Banana)
+
 
     
