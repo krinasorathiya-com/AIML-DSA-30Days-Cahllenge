@@ -4,9 +4,9 @@ uppercase = 0
 lowercase = 0
 
 for ch in text:
-    if ch.isupper():
+    if (ch.isupper()):
         uppercase += 1
-    elif ch.islower():
+    elif (ch.islower()):
         lowercase += 1
 
 print("Uppercase =", uppercase)
