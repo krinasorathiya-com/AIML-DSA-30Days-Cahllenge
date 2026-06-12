@@ -1,7 +1,8 @@
 str1 = input("Enter first string: ")
 str2 = input("Enter second string: ")
-
-if (sorted(str1.islower()) == sorted(str2.islower())):
+a=str1.islower()
+b=str2.islower()
+if (sorted(a) == sorted(b)):
     print("Anagram")
 else:
     print("Not Anagram")
