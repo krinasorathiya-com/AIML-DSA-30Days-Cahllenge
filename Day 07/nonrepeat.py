@@ -8,5 +8,5 @@ for ch in text:
         found = True
         break
 
-if found == False:
+if (found == False):
     print("All characters are repeating.")
