@@ -1,6 +1,6 @@
 text = input("Enter a string: ")
 
-if text.lower() == text.lower()[::-1]:
-    print("Palindrome")
+if (text.lower() == text.lower()[::-1]):
+    print(" String is Palindrome.")
 else:
-    print("Not Palindrome")
+    print("String is Not Palindrome.")
