@@ -1,6 +1,8 @@
 text = input("Enter a string: ")
 
-if (text.lower() == text.lower()[::-1]):
-    print(" String is Palindrome.")
+reverse = text[::-1]
+
+if (text == reverse):
+    print(" String is Palindrome")
 else:
-    print("String is Not Palindrome.")
+    print("String is Not Palindrome")
