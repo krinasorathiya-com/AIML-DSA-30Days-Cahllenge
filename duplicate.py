@@ -1,13 +1,9 @@
-numbers = [1, 2, 3, 2, 4, 5, 1]
+numbers = [1, 2, 3, 9, 8, 5, 1]
 
-visited = set()
-duplicates = set()
+print("Duplicate Elements:")
 
-for num in numbers:
-    if num in visited:
-        duplicates.add(num)
-    else:
-        visited.add(num)
-
-print("Duplicate elements:")
-for num in duplicates:
+for i in range(len(numbers)):
+    for j in range(i + 1, len(numbers)):
+        if numbers[i] == numbers[j]:
+            print(numbers[i])
+            break
