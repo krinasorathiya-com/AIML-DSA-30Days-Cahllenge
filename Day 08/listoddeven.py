@@ -1,10 +1,13 @@
-sentence = input("Enter a sentence: ")
+numbers = [1, 2, 3, 4, 5, 6]
 
-words = sentence.split()
-largest = words[0]
+even = 0
+odd = 0
 
-for word in words:
-    if len(word) > len(largest):
-        largest = word
+for num in numbers:
+    if num % 2 == 0:
+        even += 1
+    else:
+        odd += 1
 
-print("L
+print("Even =", even)
+print("Odd =", odd)
