@@ -4,6 +4,6 @@ print("Duplicate Elements:")
 
 for i in range(len(numbers)):
     for j in range(i + 1, len(numbers)):
-        if numbers[i] == numbers[j]:
+        if (numbers[i] == numbers[j]):
             print(numbers[i])
             break
