@@ -1,13 +1,13 @@
-numbers = [1, 2, 3, 4, 5, 6]
+numbers = [1, 2, 3, 2, 4, 5, 1]
 
-even = 0
-odd = 0
+visited = set()
+duplicates = set()
 
 for num in numbers:
-    if num % 2 == 0:
-        even += 1
+    if num in visited:
+        duplicates.add(num)
     else:
-        odd += 1
+        visited.add(num)
 
-print("Even =", even)
-print("
+print("Duplicate elements:")
+for num in duplicates:
