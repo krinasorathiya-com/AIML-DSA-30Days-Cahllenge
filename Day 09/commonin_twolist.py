@@ -3,6 +3,6 @@ list2 = [3, 4, 5, 6]
 
 common = set(list1) & set(list2)
 
-print("Common Elements:")
+print("Common Elements in two:")
 for num in common:
     print(num, end=" ")
