@@ -8,4 +8,4 @@ for item in elements:
         frequency[item] = 1
 
 for key, value in frequency.items():
-    print(f"{key} → {value}")
+    print(f"{key} → {value} times in elements.")
