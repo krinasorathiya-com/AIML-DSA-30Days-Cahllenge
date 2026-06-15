@@ -10,7 +10,7 @@ int main()
             if(i==j)
             cout<<"*";
             else
-            break;
+            cout<<" ";
         }
     }
     return 0;
