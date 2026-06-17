@@ -4,7 +4,7 @@ list2 = [3, 4, 5]
 result = []
 
 for item in list1:
-    if item not in result:
+    if (item not in result):
         result.append(item)
 
 for item in list2:
