@@ -1,5 +1,5 @@
 numbers = (12,34,56,78,12,34,90,12)
-target = 2
+target = 12
 
 count = 0
 
