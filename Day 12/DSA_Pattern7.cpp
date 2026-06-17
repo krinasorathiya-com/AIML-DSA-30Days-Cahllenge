@@ -13,6 +13,5 @@ for (int i = 5; i >= 1; i--) {
 
         cout << endl;
     }
-
     return 0;
 }
