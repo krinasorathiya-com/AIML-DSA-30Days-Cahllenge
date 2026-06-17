@@ -1,4 +1,4 @@
-numbers = [21,45,88,90,87,12,-45]
+numbers = [21,45,88,90,87,12,-45,-78]
 
 smallest = float('inf')
 second_smallest = float('inf')
