@@ -4,10 +4,10 @@ smallest = float('inf')
 second_smallest = float('inf')
 
 for num in numbers:
-    if num < smallest:
+    if (num < smallest):
         second_smallest = smallest
         smallest = num
-    elif num < second_smallest and num != smallest:
+    elif (num < second_smallest and num != smallest):
         second_smallest = num
 
 print("Second Smallest =", second_smallest)
