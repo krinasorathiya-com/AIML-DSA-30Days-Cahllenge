@@ -1,4 +1,4 @@
-numbers = (10, 25, 5, 60, 30)
+numbers = (32, 87, 95, 60, 12)
 
 max = numbers[0]
 
