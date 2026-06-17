@@ -8,7 +8,7 @@ for item in list1:
         result.append(item)
 
 for item in list2:
-    if item not in result:
+    if (item not in result):
         result.append(item)
 
 print(result)
