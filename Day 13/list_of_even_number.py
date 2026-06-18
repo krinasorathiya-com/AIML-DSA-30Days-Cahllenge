@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+numbers = [23,24,25,67,89,87,123,675,890,234,567]
 
 even = [num for num in numbers if (num % 2 == 0)]
 
