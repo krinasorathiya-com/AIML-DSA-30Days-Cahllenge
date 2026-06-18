@@ -1,4 +1,4 @@
-names = ["Krina","sorathiya","hELLo";"gooDmorning"]
+names = ["Krina","sorathiya","hELLo","gooDmorning"]
 
 upper_names = [name.upper() for name in names]
 
