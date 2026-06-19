@@ -15,9 +15,7 @@ int main() {
         for (char ch = 'A' + n - i; ch <= 'E'; ch++) {
             cout << ch << " ";
         }
-
         cout << endl;
     }
-
     return 0;
 }
