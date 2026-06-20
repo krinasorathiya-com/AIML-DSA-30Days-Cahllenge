@@ -1,7 +1,10 @@
-file = open("python.txt", "r")
+file = open("sample.txt", "r")
 
-content = file.read()
+count = 0
 
-print(content)
+for line in file:
+    count += 1
 
 file.close()
+
+print("Total number of lines:", count)
