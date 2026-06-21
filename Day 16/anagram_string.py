@@ -4,4 +4,4 @@ str2 = input("Enter second string: ")
 if (sorted(str1) == sorted(str2)):
     print("String is Anagram")
 else:
-    print("Not Anagram")
+    print("String is Not Anagram")
