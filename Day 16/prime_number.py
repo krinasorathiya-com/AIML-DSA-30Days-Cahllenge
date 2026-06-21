@@ -11,7 +11,7 @@ def is_prime(num):
 
 n = int(input("Enter N: "))
 
-print("Prime Numbers:")
+print("All 1 to N Prime Numbers:")
 
 for i in range(2, n + 1):
     if (is_prime(i)):
