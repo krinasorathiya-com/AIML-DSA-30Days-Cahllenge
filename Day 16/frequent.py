@@ -11,7 +11,7 @@ most_frequent = None
 max_count = 0
 
 for key, value in frequency.items():
-    if value > max_count:
+    if (value > max_count):
         max_count = value
         most_frequent = key
 
