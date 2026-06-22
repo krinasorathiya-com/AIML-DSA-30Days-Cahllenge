@@ -9,7 +9,7 @@ highest_marks = 0
 top_student = ""
 
 for name, marks in students.items():
-    if marks > highest_marks:
+    if (marks > highest_marks):
         highest_marks = marks
         top_student = name
 
