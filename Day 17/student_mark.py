@@ -1,7 +1,7 @@
 students = {
-    "Rahul": 85,
-    "Aman": 72,
-    "Priya": 91
+    "Bhakti": 85,
+    "Krina": 72,
+    "Meera": 91
 }
 
 highest_marks = 0
