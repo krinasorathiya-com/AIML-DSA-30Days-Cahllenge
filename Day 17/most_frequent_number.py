@@ -1,6 +1,5 @@
 numbers = [78,98,78,87,78,56,34,43,12,21,89,78,78]
 frequency = {}
-
 for num in numbers:
     if num in frequency:
         frequency[num] += 1
