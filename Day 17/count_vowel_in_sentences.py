@@ -1,4 +1,4 @@
-sentence = "Power Transformer is a preprocessing technique that automatically transforms numerical features to make them closer to a normal distribution.\n It includes Box-Cox and Yeo-Johnson transformations."
+sentence = "Power Transformer is a preprocessing technique that automatically transforms numerical features to make them closer to a normal distribution."
 
 count = 0
 vowels = "aeiouAEIOU"
