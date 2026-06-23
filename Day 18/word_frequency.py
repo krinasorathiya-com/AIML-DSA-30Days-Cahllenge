@@ -5,4 +5,4 @@ def word_frequency(sentence):
     for word, count in freq.items():
         print(f"{word} → {count}")
 
-word_frequency("python is fun python is powerful")
+word_frequency("Python is fun, Python is powerful.")
