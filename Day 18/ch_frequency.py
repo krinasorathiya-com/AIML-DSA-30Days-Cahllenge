@@ -6,3 +6,4 @@ def char_frequency(s):
         print(f"{ch} → {count}")
 
 char_frequency("machinelearning")
+char_frequency("DataBaseManagementSystem")
