@@ -9,5 +9,4 @@ def most_frequent(words):
             max_count = count
             max_word = word
     return max_word
-
 print(most_frequent(["AI","ML","AI","Python","AI","ML","DSA","dsa"]))
