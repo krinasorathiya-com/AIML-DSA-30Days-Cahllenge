@@ -4,6 +4,5 @@ def char_frequency(s):
         freq[ch] = freq.get(ch, 0) + 1
     for ch, count in freq.items():
         print(f"{ch} → {count}")
-
 char_frequency("machinelearning")
 char_frequency("DataBaseManagementSystem")
