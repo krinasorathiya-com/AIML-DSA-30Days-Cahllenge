@@ -6,5 +6,4 @@ def first_non_repeating(s):
         if (freq[ch] == 1):
             return ch
     return None
-
 print(first_non_repeating("aabbcde"))
