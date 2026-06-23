@@ -6,6 +6,5 @@ def group_by_grade(students):
         groups[grade].append(name)
     for grade, names in groups.items():
         print(f"{grade} → {', '.join(names)}")
-
 data = [("Meera","A"),("Krina","B"),("Bhakti","A"),("Riya","C")]
 group_by_grade(data)
