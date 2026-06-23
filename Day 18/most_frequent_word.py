@@ -5,7 +5,7 @@ def most_frequent(words):
     max_word = None
     max_count = 0
     for word, count in freq.items():
-        if count > max_count:
+        if (count > max_count):
             max_count = count
             max_word = word
     return max_word
