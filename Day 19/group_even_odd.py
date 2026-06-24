@@ -5,5 +5,4 @@ for num in numbers:
         groups["Even"].append(num)
     else:
         groups["Odd"].append(num)
-
 print(groups)
