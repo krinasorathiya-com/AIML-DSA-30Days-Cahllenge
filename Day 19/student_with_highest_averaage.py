@@ -3,7 +3,7 @@ best_student = None
 best_avg = 0
 for student, scores in marks.items():
     avg = sum(scores) / len(scores)
-    if avg > best_avg:
+    if (avg > best_avg):
         best_avg = avg
         best_student = student
 
