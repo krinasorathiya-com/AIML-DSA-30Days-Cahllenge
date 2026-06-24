@@ -1,4 +1,4 @@
-text = "AI AI ML AI Python ML  DSA"
+text = "AI AI ML AI Python ML DSA"
 freq = {}
 for word in text.split():
     freq[word] = freq.get(word, 0) + 1
