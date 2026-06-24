@@ -6,5 +6,4 @@ for student, scores in marks.items():
     if (avg > best_avg):
         best_avg = avg
         best_student = student
-
 print(f"{best_student} → {best_avg:.2f}")
