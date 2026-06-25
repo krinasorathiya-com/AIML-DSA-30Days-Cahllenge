@@ -1,4 +1,4 @@
-file = open("dscf.txt", "r")
+file = open("pyhton.txt", "r")
 text = file.read()
 file.close()
 
