@@ -1,4 +1,4 @@
-file = open("sample.txt", "r")
+file = open("dscf.txt", "r")
 
 text = file.read()
 file.close()
