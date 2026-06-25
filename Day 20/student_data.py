@@ -21,7 +21,6 @@ student = {
     "name": "Krina",
     "marks": [85, 90, 78, 88]
 }
-
 avg = average_marks(student["marks"])
 
 print("Student Name:", student["name"])
