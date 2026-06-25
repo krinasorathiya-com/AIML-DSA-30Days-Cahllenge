@@ -1,4 +1,4 @@
-file = open("pyhton.txt", "r")
+file = open("pyton.txt", "r")
 text = file.read()
 file.close()
 
