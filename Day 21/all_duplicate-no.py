@@ -8,7 +8,6 @@ for num in numbers:
         frequency[num] = 1
 
 print("Duplicate Numbers:")
-
 for key, value in frequency.items():
     if (value > 1):
         print(key)
