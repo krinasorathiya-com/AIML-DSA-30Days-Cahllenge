@@ -1,5 +1,5 @@
 word = input("Enter word to search: ")
-file = open("sample.txt", "r")
+file = open("python.txt", "r")
 
 content = file.read()
 
