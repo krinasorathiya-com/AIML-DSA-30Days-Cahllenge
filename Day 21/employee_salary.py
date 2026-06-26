@@ -1,11 +1,9 @@
 def highest_salary(employee):
     name = max(employee, key=employee.get)
     return name, employee[name]
-
 def lowest_salary(employee):
     name = min(employee, key=employee.get)
     return name, employee[name]
-
 def average_salary(employee):
     return sum(employee.values()) / len(employee)
 
