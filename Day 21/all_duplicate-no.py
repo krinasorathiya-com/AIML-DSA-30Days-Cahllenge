@@ -1,5 +1,4 @@
 numbers = [2, 5, 7, 2, 4, 5, 8, 2]
-
 frequency = {}
 
 for num in numbers:
