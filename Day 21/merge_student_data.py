@@ -12,6 +12,5 @@ student2 = {
 students = []
 students.append(student1)
 students.append(student2)
-
 for student in students:
     print(student)
