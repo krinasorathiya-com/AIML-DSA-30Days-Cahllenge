@@ -3,7 +3,6 @@ student1 = {
     "Age": 20,
     "Marks": 85
 }
-
 student2 = {
     "Name": "Priya",
     "Age": 21,
@@ -11,7 +10,6 @@ student2 = {
 }
 
 students = []
-
 students.append(student1)
 students.append(student2)
 
