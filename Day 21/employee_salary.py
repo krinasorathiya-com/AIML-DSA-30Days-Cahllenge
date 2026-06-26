@@ -6,7 +6,6 @@ def lowest_salary(employee):
     return name, employee[name]
 def average_salary(employee):
     return sum(employee.values()) / len(employee)
-
 employees = {
     "Aman": 35000,
     "Priya": 52000,
