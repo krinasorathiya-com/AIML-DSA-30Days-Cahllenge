@@ -1,4 +1,4 @@
-with open("pyhton.txt", "r") as file:
+with open("python.txt", "r") as file:
     lines = file.readlines()
 longest = ""
 
