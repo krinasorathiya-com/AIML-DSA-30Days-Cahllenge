@@ -6,7 +6,7 @@ def highest_marks(data):
 def passed_students(data):
     count = 0
     for marks in data.values():
-        if marks >= 35:
+        if (marks >= 35):
             count += 1
     return count
 print("Student Result Summary")
