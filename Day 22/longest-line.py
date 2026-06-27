@@ -3,7 +3,7 @@ with open("python.txt", "r") as file:
 longest = ""
 
 for line in lines:
-    if len(line) > len(longest):
+    if (len(line) > len(longest)):
         longest = line
 print("Longest Line:")
 print(longest.strip())
