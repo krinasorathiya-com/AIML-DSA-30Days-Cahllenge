@@ -1,9 +1,4 @@
-attendance = {
-    "Aman": 92,
-    "Priya": 85,
-    "Rahul": 74,
-    "Riya": 98
-}
+attendance = {"Aman": 92,"Priya": 85,"Rahul": 74,"Riya": 98}
 print("Students with attendance above 90%:")
 
 for student, percent in attendance.items():
