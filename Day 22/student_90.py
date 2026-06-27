@@ -4,7 +4,6 @@ attendance = {
     "Rahul": 74,
     "Riya": 98
 }
-
 print("Students with attendance above 90%:")
 
 for student, percent in attendance.items():
