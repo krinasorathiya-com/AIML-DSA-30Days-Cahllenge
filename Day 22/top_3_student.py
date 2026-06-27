@@ -1,5 +1,4 @@
 numbers = [10, 55, 34, 89, 100, 45, 76]
-
 numbers.sort(reverse=True)
 
 print("Top 3 Highest Numbers:")
