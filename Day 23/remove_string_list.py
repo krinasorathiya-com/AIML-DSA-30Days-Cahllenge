@@ -1,5 +1,4 @@
 data = ["AI", "", "Python", "", "ML", "Data"]
-
 result = []
 
 for item in data:
