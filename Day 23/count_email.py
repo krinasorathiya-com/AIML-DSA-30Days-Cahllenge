@@ -10,6 +10,5 @@ for email in emails:
         domains[domain] = 1
 
 print("Domain Counts:")
-
 for domain, count in domains.items():
     print(domain, "->", count)
