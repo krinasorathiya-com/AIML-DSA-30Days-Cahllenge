@@ -1,5 +1,4 @@
-students = {
-    "Aman": 82,
+students = {"Aman": 82,
     "Priya": 45,
     "Rahul": 76,
     "Riya": 39,
