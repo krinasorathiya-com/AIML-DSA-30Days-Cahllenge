@@ -3,7 +3,7 @@ data = ["AI", "", "Python", "", "ML", "Data"]
 result = []
 
 for item in data:
-    if item != "":
+    if (item != ""):
         result.append(item)
 
 print(result)
