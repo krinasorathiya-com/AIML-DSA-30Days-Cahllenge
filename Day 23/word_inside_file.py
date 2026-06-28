@@ -6,7 +6,6 @@ with open("sample.txt", "r") as file:
 words = text.split()
 
 count = 0
-
 for w in words:
     if w == word:
         count += 1
