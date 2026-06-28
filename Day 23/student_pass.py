@@ -1,9 +1,4 @@
-students = {"Aman": 82,
-    "Priya": 45,
-    "Rahul": 76,
-    "Riya": 39,
-    "Neha": 91
-}
+students = {"Aman": 82, "Priya": 45,"Rahul": 76,"Riya": 39,"Neha": 91}
 
 passing_marks = 50
 
