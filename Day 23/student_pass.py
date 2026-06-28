@@ -6,7 +6,7 @@ passed = 0
 failed = 0
 
 for marks in students.values():
-    if marks >= passing_marks:
+    if (marks >= passing_marks):
         passed += 1
     else:
         failed += 1
