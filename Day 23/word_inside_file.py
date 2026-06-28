@@ -7,7 +7,7 @@ words = text.split()
 
 count = 0
 for w in words:
-    if w == word:
+    if (w == word):
         count += 1
 
 print("Total Occurrences:", count)
