@@ -1,8 +1,4 @@
-products = {
-    "Laptop": 65000,
-    "Mouse": 700,
-    "Keyboard": 1500,
-    "Monitor": 12000}
+products = {"Laptop": 65000,"Mouse": 700,"Keyboard": 1500,"Monitor": 12000}
 
 def most_expensive(data):
     name = max(data, key=data.get)
