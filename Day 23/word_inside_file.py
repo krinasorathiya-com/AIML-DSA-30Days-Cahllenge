@@ -1,6 +1,6 @@
 word = "Python"
 
-with open("sample.txt", "r") as file:
+with open("python.txt", "r") as file:
     text = file.read()
 
 words = text.split()
