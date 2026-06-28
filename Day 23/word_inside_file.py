@@ -1,10 +1,8 @@
 word = "Python"
-
 with open("python.txt", "r") as file:
     text = file.read()
 
 words = text.split()
-
 count = 0
 for w in words:
     if (w == word):
