@@ -4,7 +4,7 @@ unique = []
 seen = set()
 
 for name in students:
-    if name not in seen:
+    if (name not in seen):
         unique.append(name)
         seen.add(name)
 
