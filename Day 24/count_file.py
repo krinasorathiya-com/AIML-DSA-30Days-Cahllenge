@@ -1,5 +1,4 @@
 files = ["notes.pdf", "resume.pdf", "photo.jpg", "data.csv", "image.jpg"]
-
 frequency = {}
 for file in files:
     extension = file.split(".")[-1]
