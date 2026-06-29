@@ -1,10 +1,4 @@
-grades = {
-    "Aman": "A",
-    "Rahul": "B",
-    "Priya": "A",
-    "Riya": "C",
-    "Neha": "B"
-}
+grades = {"Aman": "A","Rahul": "B","Priya": "A","Riya": "C","Neha": "B"}
 
 count = {}
 
