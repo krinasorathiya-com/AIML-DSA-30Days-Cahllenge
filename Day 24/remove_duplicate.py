@@ -1,5 +1,4 @@
 students = ["Aman", "Priya", "Aman", "Rahul", "Priya", "Riya"]
-
 unique = []
 seen = set()
 
