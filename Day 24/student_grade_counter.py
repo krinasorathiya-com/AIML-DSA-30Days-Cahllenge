@@ -1,5 +1,4 @@
 grades = {"Aman": "A","Rahul": "B","Priya": "A","Riya": "C","Neha": "B"}
-
 count = {}
 
 for grade in grades.values():
