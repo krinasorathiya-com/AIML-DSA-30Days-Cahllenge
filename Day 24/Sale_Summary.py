@@ -12,7 +12,6 @@ def average_sales(data):
 
 high_month, high_value = highest_sales(sales)
 low_month, low_value = lowest_sales(sales)
-
 print("Highest Sales Month:", high_month, "-", high_value)
 print("Lowest Sales Month:", low_month, "-", low_value)
 print("Average Sales:", average_sales(sales))
