@@ -9,7 +9,7 @@ def file_analysis(filename):
     longest = ""
 
     for word in words:
-        if len(word) > len(longest):
+        if (len(word) > len(longest)):
             longest = word
 
     print("Longest Word:", longest)
