@@ -16,7 +16,6 @@ def unavailable_books(data):
         print("None")
 def total_books(data):
     print("Total Books:", sum(data.values()))
-
 available_books(books)
 unavailable_books(books)
 total_books(books)
