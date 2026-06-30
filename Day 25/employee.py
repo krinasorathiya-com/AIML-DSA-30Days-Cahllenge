@@ -1,10 +1,4 @@
-employees = [
-    ("Aman", "HR"),
-    ("Rahul", "IT"),
-    ("Priya", "IT"),
-    ("Neha", "HR"),
-    ("Riya", "Finance")
-]
+employees = [ ("Aman", "HR"), ("Rahul", "IT"), ("Priya", "IT"), ("Neha", "HR"), ("Riya", "Finance")]
 
 def department_counter(data):
     count = {}
