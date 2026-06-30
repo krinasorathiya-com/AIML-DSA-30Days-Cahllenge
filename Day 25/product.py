@@ -1,10 +1,4 @@
-products = [
-    ("Laptop", "Electronics"),
-    ("Phone", "Electronics"),
-    ("Chair", "Furniture"),
-    ("Table", "Furniture"),
-    ("Bottle", "Kitchen")
-]
+products = [ ("Laptop", "Electronics"), ("Phone", "Electronics"),("Chair", "Furniture"), ("Table", "Furniture"),("Bottle", "Kitchen")]
 
 def category_count(data):
     categories = {}
