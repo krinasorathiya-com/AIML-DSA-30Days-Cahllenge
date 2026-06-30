@@ -3,7 +3,7 @@ employees = [ ("Aman", "HR"), ("Rahul", "IT"), ("Priya", "IT"), ("Neha", "HR"), 
 def department_counter(data):
     count = {}
     for name, dept in data:
-        if dept in count:
+        if (dept in count):
             count[dept] += 1
         else:
             count[dept] = 1
