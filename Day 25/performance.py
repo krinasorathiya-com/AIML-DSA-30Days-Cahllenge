@@ -1,8 +1,4 @@
-students = {
-    "Aman": [85, 92, 88],
-    "Priya": [95, 96, 91],
-    "Rahul": [70, 72, 75]
-}
+students = {"Aman": [85, 92, 88], "Priya": [95, 96, 91], "Rahul": [70, 72, 75]}
 
 def average_marks(data):
     averages = {}
