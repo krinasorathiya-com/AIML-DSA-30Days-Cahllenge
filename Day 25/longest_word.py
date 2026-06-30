@@ -15,4 +15,4 @@ def file_analysis(filename):
     print("Longest Word:", longest)
     print("Total Characters:", len(text))
 
-file_analysis("sample.txt")
+file_analysis("python.txt")
