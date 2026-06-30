@@ -4,7 +4,7 @@ def category_count(data):
     categories = {}
 
     for product, category in data:
-        if category in categories:
+        if (category in categories):
             categories[category] += 1
         else:
             categories[category] = 1
