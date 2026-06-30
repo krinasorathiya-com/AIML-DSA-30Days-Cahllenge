@@ -1,0 +1,5 @@
+Hello Python
+Welcome to File Handling
+This is Day 23 practice
+Working with text files in Python
+File handling examples are now clearer
