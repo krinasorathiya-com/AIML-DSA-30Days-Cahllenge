@@ -1,9 +1,4 @@
-books = {
-    "Python": 5,
-    "AI": 2,
-    "DSA": 4,
-    "ML": 1
-}
+books = {"Python": 5,"AI": 2,"DSA": 4,"ML": 1}
 
 def available_books(data):
     print("Available Books:")
