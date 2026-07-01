@@ -1,6 +1,4 @@
-attendance = {
-    "Aman": 92,
-    "Priya": 81, "Rahul": 65,"Neha": 98,"Riya": 74}
+attendance = { "Aman": 92,"Priya": 81, "Rahul": 65,"Neha": 98,"Riya": 74}
 
 def average_attendance(data):
     return sum(data.values()) / len(data)
