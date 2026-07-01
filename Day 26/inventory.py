@@ -1,5 +1,4 @@
 inventory = {"Laptop": 5, "Keyboard": 0,"Mouse": 8,"Monitor": 2,"Headphones": 0}
-
 available = []
 out_of_stock = []
 total = 0
