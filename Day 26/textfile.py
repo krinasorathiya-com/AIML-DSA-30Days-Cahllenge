@@ -10,7 +10,7 @@ def file_statistics(filename):
     longest = ""
 
     for word in words:
-        if len(word) > len(longest):
+        if (len(word) > len(longest)):
             longest = word
 
     print("Total Lines:", len(lines))
