@@ -1,5 +1,4 @@
 emails = ["abc@gmail.com","xyz@gmail.com", "user@yahoo.com","krina@outlook.com","code@gmail.com"]
-
 domains = {}
 
 for email in emails:
