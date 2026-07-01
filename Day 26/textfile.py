@@ -18,4 +18,4 @@ def file_statistics(filename):
     print("Total Characters:", len(text))
     print("Longest Word:", longest)
 
-file_statistics("sample.txt")
+file_statistics("python.txt")
