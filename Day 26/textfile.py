@@ -3,10 +3,8 @@ def file_statistics(filename):
 
     text = file.read()
     file.close()
-
     lines = text.split("\n")
     words = text.split()
-
     longest = ""
 
     for word in words:
