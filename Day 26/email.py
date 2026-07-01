@@ -2,9 +2,8 @@ emails = [
     "abc@gmail.com",
     "xyz@gmail.com",
     "user@yahoo.com",
-    "dev@outlook.com",
-    "code@gmail.com"
-]
+    "krina@outlook.com",
+    "code@gmail.com"]
 
 domains = {}
 
