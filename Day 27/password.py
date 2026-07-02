@@ -5,7 +5,7 @@ has_lower = False
 has_digit = False
 
 for ch in password:
-    if ch.isupper():
+    if (ch.isupper()):
         has_upper = True
     elif ch.islower():
         has_lower = True
