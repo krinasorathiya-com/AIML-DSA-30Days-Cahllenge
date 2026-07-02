@@ -11,7 +11,7 @@ visitors = [
 count = {}
 
 for country in visitors:
-    if country in count:
+    if (country in count):
         count[country] += 1
     else:
         count[country] = 1
