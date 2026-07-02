@@ -10,6 +10,7 @@ for word in words:
 
     if (len(word) < len(shortest)):
         shortest = word
+        
 print("Total Words:", total_words)
 print("Total Characters:", total_characters)
 print("Longest Word:", longest)
