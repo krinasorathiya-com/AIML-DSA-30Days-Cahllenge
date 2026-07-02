@@ -13,7 +13,6 @@ for ch in password:
         has_digit = True
 
 count = 0
-
 if len(password) >= 8:
     count += 1
 if has_upper:
