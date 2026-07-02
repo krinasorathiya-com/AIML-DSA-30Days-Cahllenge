@@ -1,7 +1,5 @@
 files = ["notes.pdf","resume.pdf", "photo.png","music.mp3","movie.mp4","image.png"]
-
 extensions = {}
-
 for file in files:
     ext = file.split(".")[1]
 
