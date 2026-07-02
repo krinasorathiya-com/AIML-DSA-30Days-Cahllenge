@@ -21,7 +21,6 @@ if has_lower:
     count += 1
 if has_digit:
     count += 1
-
 if (count == 4):
     print("Strong Password")
 elif count >= 2:
