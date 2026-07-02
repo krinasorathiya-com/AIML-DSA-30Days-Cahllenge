@@ -4,8 +4,7 @@ employees = {
     "Aman": [85, 90, 88],
     "Priya": [92, 95, 94],
     "Rahul": [70, 75, 72],
-    "Neha": [98, 96, 99]
-}
+    "Neha": [98, 96, 99]}
 averages = {}
 for name, scores in employees.items():
     avg = calculate_average(scores)
