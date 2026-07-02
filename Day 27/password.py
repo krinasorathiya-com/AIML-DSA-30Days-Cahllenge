@@ -22,7 +22,7 @@ if has_lower:
 if has_digit:
     count += 1
 
-if count == 4:
+if (count == 4):
     print("Strong Password")
 elif count >= 2:
     print("Medium Password")
