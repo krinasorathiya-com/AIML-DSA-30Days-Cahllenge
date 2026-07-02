@@ -5,7 +5,7 @@ extensions = {}
 for file in files:
     ext = file.split(".")[1]
 
-    if ext in extensions:
+    if (ext in extensions):
         extensions[ext] += 1
     else:
         extensions[ext] = 1
