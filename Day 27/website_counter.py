@@ -2,10 +2,7 @@ visitors = [
     "India",
     "USA",
     "India",
-    "Canada",
-    "USA",
-    "India",
-    "Germany"]
+    "Canada",  "USA", "India", "Germany"]
 
 count = {}
 
