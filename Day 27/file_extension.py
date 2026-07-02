@@ -1,11 +1,4 @@
-files = [
-    "notes.pdf",
-    "resume.pdf",
-    "photo.png",
-    "music.mp3",
-    "movie.mp4",
-    "image.png"
-]
+files = ["notes.pdf","resume.pdf", "photo.png","music.mp3","movie.mp4","image.png"]
 
 extensions = {}
 
