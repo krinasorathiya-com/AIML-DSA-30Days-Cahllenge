@@ -1,8 +1,4 @@
-visitors = [
-    "India",
-    "USA",
-    "India",
-    "Canada",  "USA", "India", "Germany"]
+visitors = ["India", "USA", "India","Canada",  "USA", "India", "Germany"]
 
 count = {}
 
