@@ -6,10 +6,10 @@ longest = words[0]
 shortest = words[0]
 
 for word in words:
-    if len(word) > len(longest):
+    if (len(word) > len(longest)):
         longest = word
 
-    if len(word) < len(shortest):
+    if (len(word) < len(shortest)):
         shortest = word
 
 print("Total Words:", total_words)
