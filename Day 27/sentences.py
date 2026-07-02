@@ -1,9 +1,7 @@
 sentence = input("Enter a sentence: ")
 words = sentence.split()
-
 total_words = len(words)
 total_characters = len(sentence)
-
 longest = words[0]
 shortest = words[0]
 
